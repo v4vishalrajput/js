@@ -11,6 +11,7 @@ function callback(err,res,html){
         console.log();
        console.log("                     /////    MUMBAI INDIANS   /////                 ");
            console.log();
+           console.log();
        for(let i=0;i<rows.length;i++){
           let columns=$(rows[i]).find("td");
            let anchor=$(columns[0]).find("a");
